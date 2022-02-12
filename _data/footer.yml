@@ -1,0 +1,15 @@
+- links:
+  - name: Report Issue
+    link: https://github.com/satetsu888/vts-chameleon/issues
+    new_window: true
+  - name: Feature Request
+    link: https://github.com/satetsu888/vts-chameleon/issues
+    new_window: true
+- links:
+  - name: Twitter
+    link: https://twitter.com/satetsu888/
+    social_icon: Twitter
+    new_window: true
+  - name: Donation
+    link: https://www.buymeacoffee.com/satetsu888
+    new_window: true

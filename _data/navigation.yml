@@ -1,0 +1,8 @@
+- name: Features
+  link: /#features
+  new_window: false
+  highlight: false
+- name: Downloads
+  link: /#downloads
+  new_window: false
+  highlight: false

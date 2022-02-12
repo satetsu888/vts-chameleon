@@ -1,0 +1,48 @@
+# ----
+# Site
+
+title: VTS chameleon
+url: "https://satetsu888.github.io/vts-chameleon"
+baseurl:
+google_analytics_key:
+google_maps_javascript_api_key:
+disqus_shortname:
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: general color tint plugin for VTubeStudio.
+author:
+  name: satetsu888
+  twitter: satetsu888
+
+# -----
+# Build
+
+timezone: Etc/UTC
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+  - scope:
+      path: "index.html"
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+# -----------
+# CloudCannon
+
+_select_data:
+  social_icons:
+    - Twitter
