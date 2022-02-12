@@ -1,9 +1,9 @@
 - links:
   - name: Report Issue
-    link: https://github.com/satetsu888/vts-chameleon/issues
+    link: https://github.com/satetsu888/vts-chameleon/issues/new?template=bug-report.md
     new_window: true
   - name: Feature Request
-    link: https://github.com/satetsu888/vts-chameleon/issues
+    link: https://github.com/satetsu888/vts-chameleon/issues/new?template=feature_request.md
     new_window: true
 - links:
   - name: Twitter
