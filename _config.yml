@@ -2,8 +2,8 @@
 # Site
 
 title: VTS chameleon
-url: "https://satetsu888.github.io/vts-chameleon"
-baseurl:
+url: "https://satetsu888.github.io"
+baseurl: "/vts-chameleon"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
