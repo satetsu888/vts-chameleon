@@ -11,6 +11,15 @@ faq:
     answer: Please be sure, you select correct ArtMeshes and Colors.
   - question: My model color change very little...
     answer: This plugin use tint color API with VTube Studio, so <br> light color ArtMesh changes a lot but dark color ArtMesh cannot.
+thanks:
+  - name: ぱんだがむ - PandaGum 🐼
+    url: https://twitter.com/PandaGumV
+    body: Design of plugin image charactor Chameleon
+    bodyUrl: https://nizima.com/Item/DetailItem/36864
+  - name: Hawkbat
+    url: https://twitter.com/HawkbarGaming
+    body: VTubeStudioJS - Typescript library for VTube Studio
+    bodyUrl: https://github.com/Hawkbat/VTubeStudioJS
 ---
 <section class="hero">
 	<div class="text-container">
@@ -80,5 +89,19 @@ faq:
             {% endfor %}
         </dl>
         {% endif %}
+    </section>
+
+    <section class="bottom-cta" id="specialthanks">
+        <h2 class="editable"><strong>Special Thanks 💖</strong></h2>
+        <dl class="specialthanks">
+            {% for thank in page.thanks %}
+            <div class="thanks">
+                <dt><h3><a href="{{ thank.url }}" target="_blank">{{ thank.name }}</a></h3></dt>
+                <dd>
+                    <a href="{{ thank.bodyUrl }}" target="_blank">{{ thank.body }}</a>
+                </dd>
+            </div>
+            {% endfor %}
+        </dl>
     </section>
 </div>

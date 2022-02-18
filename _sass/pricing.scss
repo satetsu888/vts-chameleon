@@ -48,7 +48,7 @@
 	}
 }
 
-.faq {
+.faq, .specialthanks {
 	@media #{$desktop} {
 		@include columns(2);
 	}
