@@ -27,7 +27,12 @@ thanks:
         <p class="subtext editable">VTS-chameleon is generic colorize plugin for <a href="https://denchisoft.com/" target="_blank" style="color: white; text-decoration: underline;">VTube Studio</a>. <br>
         Change colores and implessions freely.</p>
 		<div>
-			<img src="{{ site.baseurl }}/images/lp.webp" />
+            <picture>
+                <source srcset="{{ site.baseurl }}/images/lp.webp 353w" type="image/webp" media="(min-width: 768px)">
+                <source srcset="{{ site.baseurl }}/images/lp.webp" type="image/webp" media="(min-width: 600px)">
+                <source srcset="{{ site.baseurl }}/images/lp-mobile.webp" type="image/webp">
+                <img src="{{ site.baseurl }}/images/lp.webp" />
+            </picture>
 		</div>
 		<div class="cta button alt"><a href="https://github.com/satetsu888/vts-chameleon/releases/latest/download/VTS-chameleon-Setup.exe">Download for Windows</a></div>
 		<div class="cta button alt"><a href="https://github.com/satetsu888/vts-chameleon/releases/latest/download/VTS-chameleon.dmg">Download for MacOS</a></div>
