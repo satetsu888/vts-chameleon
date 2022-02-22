@@ -23,9 +23,12 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Version [e.g. 22]
+**Environment (please complete the following information):**
+ - OS: [e.g. Windows, Mac ]
+ - Version [e.g. 10, 12.2.1]
+
+ - VTube Studio Version: [e.g. 1.17.0]
+ - VTS-chameleon Version: [e.g. 0.0.8]
 
 **Additional context**
 Add any other context about the problem here.
